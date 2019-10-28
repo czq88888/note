@@ -1,9 +1,9 @@
-- 泛微相关
+* 泛微相关
 
-  - [ecology-9开发手册](./weaver/ecology-9开发手册.md)
-  - [ecode使用说明](<https://e-cloudstore.com/ecode/doc?tdsourcetag=s_pcqq_aiomsg>)
-  - [ecology-9技术站](<https://e-cloudstore.com/e9/index.html>)
-  - [ecology-9-demo后端代码仓库](<https://gitee.com/weaver_cs/ecology-9-demo>)
+  * [ecology-9开发手册](weaver/ecology-9开发手册.md)
+  * [ecode使用说明](<https://e-cloudstore.com/ecode/doc?tdsourcetag=s_pcqq_aiomsg>)
+  * [ecology-9技术站](<https://e-cloudstore.com/e9/index.html>)
+  * [ecology-9-demo后端代码仓库](<https://gitee.com/weaver_cs/ecology-9-demo>)
 
 - Customization
 
