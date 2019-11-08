@@ -18,7 +18,9 @@
     <link href="themes/vue.css" rel="stylesheet">
     <!--<link rel="stylesheet" href="jsdelivr/theme-simple.css">-->
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark/prism-onedark.css">-->
+
     <!--<script src="//unpkg.com/docsify-plugin-codefund/index.js"></script>-->
+    <!--<script src="plugins/index.js"></script>-->
 
     <style>
         nav.app-nav li ul {
@@ -35,11 +37,11 @@
 <script>
     window.$docsify = {
         maxAge: 100,
-        name: '我的笔记',//文档名
+        name: '<!--<img alt="标题" src="_media/docs.png" style="width: 18px;height: 18px;margin-left: -9px;"> -->我的笔记',//文档名
         repo: '',//Github corner 挂件 dreamwhigh/CS-Learning
         loadSidebar: true,//配置侧边栏 ,_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载。
         subMaxLevel: 5,//配置目录副标题级数
-        maxLevel: 6,
+        maxLevel: 5,
         loadNavbar: '_navbar.md',//配置导航栏
         // loadNavbar: '_sidebar.md',//配置导航栏
         mergeNavbar: true, // Navbar将在小屏幕上与侧边栏合并
@@ -99,9 +101,8 @@
 <script src="plugins/search.js"></script>
 <script src="plugins/zoom-image.js"></script>
 <!--https://cdn.bootcss.com/prism/9000.0.1/-->
-<script src="https://cdn.bootcss.com/prism/9000.0.1/prism.js"></script>
-<script src="components/prism-bash.min.js"></script>
-<script src="components/prism-markdown.min.js"></script>
+<script src="components/prism-bash.js"></script>
+<script src="components/prism-markdown.js"></script>
 <script src="components/prism-java.js"></script>
 <script src="components/prism-sql.js"></script>
 <script src="components/prism-css.js"></script>
@@ -115,6 +116,58 @@
     // };
 </script>
 <!--<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>-->
+<!--自定义脚本-->
+<!--<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>-->
+<script>
+    // var interval = setInterval(function () {
+    //     // $('div.sidebar-nav>ul>li li').click(function () {
+    //     //     var obj = $('div.sidebar-nav>ul>li li');
+    //     //     for (var i = 0; i < obj.length; i++) {
+    //     //         if (obj[i] == this) {
+    //     //             $(this).attr('class', 'active');
+    //     //         }
+    //     //         $(obj[i]).attr('class', '');
+    //     //     }
+    //     //
+    //     // });
+    //
+    //     var filter = $('div.sidebar-nav>ul>li li');
+    //     if(filter){
+    //         clearInterval(interval);
+    //         console.log('成功');
+    //         for(let i=0;i<filter.length;i++){
+    //             filter[i].addEventListener('click',function (e) {
+    //
+    //                 console.log(i);
+    //                 e.stopPropagation();
+    //                 for(let j=0;j<filter.length;j++){
+    //                     if(i!=j){
+    //                         $(filter[j]).removeClass('active');
+    //                     }
+    //                 }
+    //                 $(filter[i]).addClass('active');
+    //             })
+    //         }
+    //     }else{
+    //         console.log('失败');
+    //     }
+    //
+    //
+    //
+    //     // var liObj = $('div.sidebar-nav>ul>li li');
+    //     // if(liObj){
+    //     //     liObj.toggle(function () {
+    //     //         console.log(1111111111111111111111);
+    //     //     },function () {
+    //     //         console.log(2);
+    //     //     })
+    //     //     clearInterval(interval);
+    //     // }
+    //
+    //
+    // }, 5000)
+</script>
+
 </body>
 
 </html>
